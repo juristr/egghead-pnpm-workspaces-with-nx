@@ -17,6 +17,7 @@ importers:
       eslint: ^8.20.0
       react: ^18.2.0
       react-dom: ^18.2.0
+      shared-ui: workspace:*
       typescript: ^4.7.4
     dependencies:
       '@remix-run/node': 1.6.8_biqbaboplfbrettd7655fr4n2y
@@ -24,6 +25,7 @@ importers:
       '@remix-run/serve': 1.6.8_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      shared-ui: link:../../packages/shared-ui
     devDependencies:
       '@remix-run/dev': 1.6.8_cgxlqhaetfbjollwaaytbbpdmu
       '@remix-run/eslint-config': 1.6.8_o3mauctgtumsl5j4kwehbgms54
