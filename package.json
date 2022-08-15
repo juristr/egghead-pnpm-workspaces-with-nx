@@ -1,0 +1,7 @@
+{
+  "name": "nx-pnpm",
+  "private": true,
+  "scripts": {},
+  "author": "Juri Strumpflohner",
+  "license": "ISC"
+}
