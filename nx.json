@@ -13,7 +13,11 @@
   "targetDefaults": {
     "build": {
       "inputs": ["noMarkdown", "^noMarkdown"],
-      "outputs": ["{projectRoot}/dist"]
+      "outputs": ["{projectRoot}/dist"],
+      "dependsOn": ["^build", "pre-build"]
+    },
+    "dev": {
+      "dependsOn": ["^build"]
     },
     "test": {
       "inputs": ["noMarkdown"]
