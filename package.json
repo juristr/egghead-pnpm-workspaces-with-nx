@@ -3,5 +3,8 @@
   "private": true,
   "scripts": {},
   "author": "Juri Strumpflohner",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nx": "^14.5.6"
+  }
 }
