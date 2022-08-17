@@ -5,6 +5,7 @@
   "author": "Juri Strumpflohner",
   "license": "MIT",
   "devDependencies": {
+    "@nrwl/nx-cloud": "^14.4.1",
     "nx": "^14.5.6"
   }
 }
